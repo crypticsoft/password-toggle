@@ -1,36 +1,22 @@
-# Your first Polymer element
+# Polymer Element : Password Toggle
 
-This repo goes with the [Build your first Polymer element codelab](http://www.code-labs.io/codelabs/polymer-first-elements/).
+A toggle switch to show the text of a password field.
 
-The codelab is designed to be used with [Chrome Dev Editor](https://chrome.google.com/webstore/detail/chrome-dev-editor-develop/pnoffddplpippgcfjdhbmhkofpnaalpg?hl=en).
-See the next section if you'd like to use another editor for the codelab.
+1.  Download and install from `bower` (use --save or --save-dev).
 
-## Running the codelab without Chrome Dev Editor
+        `bower install crypticsoft/password-toggle`
 
-If you're not using CDE, you'll need to install some command-line tools to manage
-dependencies and to run the demo.
+2.  Include the component and specify a password selector, this example uses a data attribute:
 
-1.  Download and install Node from [https://nodejs.org/](https://nodejs.org/). Node includes the node package manager command, `npm`.
+        <password-toggle data-password-selector="input[data-is-password='true']"></password-toggle>
+        <input type="password" name="password" data-is-password="true" value="123456">
 
-2.  Install `bower` and `polyserve`:
+3.  To preview the element, you can clone the repo (https://github.com/crypticsoft/password-toggle.git) and run:
 
-        npm install -g bower polyserve
+        polymer serve
 
-3.  Clone this repo:
+    Open `localhost:8080/components/password-toggle/demo/` in your browser. (Note that the path uses `password-toggle`—the
+    component name listed in this element's `bower.json` file—rather than the actual directory name.)
 
-        https://github.com/googlecodelabs/polymer-first-elements.git
-        
-4.  Change directory to your local repo and install dependencies with `bower`:
-
-        cd polymer-first-elements
-        bower install
-        
-5.  To preview your element, run `polyserve` from the repo directory:
-
-        polyserve
-        
-    Open `localhost:8080/components/icon-toggle/demo/` in your browser. (Note that the path uses `icon-toggle`—the 
-    component name listed in this element's `bower.json` file—rather than the actual directory name.) 
-    
-If you're wondering what `polyserve` does, see [Testing elements with local bower dependencies](https://www.polymer-project.org/1.0/docs/start/reusableelements.html#local-dependencies) 
-in the Polymer docs. 
+If you're wondering what `polymer serve` does, see [Testing elements with local bower dependencies](https://www.polymer-project.org/1.0/docs/start/reusableelements.html#local-dependencies)
+in the Polymer docs.

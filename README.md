@@ -1,6 +1,6 @@
 # Polymer Element : Password Toggle
 
-A toggle switch to show the text of a password field.
+A toggle switch to show the text of a password field. You can view a demo here: https://crypticsoft.github.io/password-toggle/
 
 1.  Download and install from `bower` (use --save or --save-dev).
 

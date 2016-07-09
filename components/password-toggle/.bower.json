@@ -1,0 +1,25 @@
+{
+  "name": "password-toggle",
+  "homepage": "https://github.com/Polymer/element-tutorial",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "_release": "eb99a5b7e1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "eb99a5b7e1060929526336e331f6e7657a219b19"
+  },
+  "_source": "git://github.com/crypticsoft/password-toggle.git",
+  "_target": "master",
+  "_originalSource": "crypticsoft/password-toggle",
+  "_direct": true
+}
